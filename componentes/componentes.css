@@ -1,0 +1,39 @@
+#root{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-formularios{
+    width: 100%;
+    max-width: 100rem;
+    padding: 1rem;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 6rem);
+    gap: 1rem;
+}
+
+.div-formularios .item{
+    border: 1px solid gray;
+    border-radius:3px ;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s;
+
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(41, 37, 37);
+
+}
+
+.div-formularios .item:hover{
+    background-color: rgb(77, 70, 70);
+    color: white;
+    transition: 0.3s;
+}
