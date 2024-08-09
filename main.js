@@ -14,7 +14,7 @@ let formularios = [
     {nombre : "formulario De Registro", link: "componentes/formularioDeRegisto/formularioDeRegisto.html"},
     {nombre : "formulario De Búsqueda", link: "componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
     {nombre : "formulario De Pedido Compras", link: "componentes/formularioDePedidoCompras/formularioDePedidoCompras.html"},
-    {nombre : "formulario De Comentarios Reseñas", link: "componentes/formularioDeComentariosReseñas/formularioDeComentariosReseñas.html"},
+    {nombre : "formulario De Comentarios Reseñas", link: "componentes/formularioDeComentarios/formularioDeComentarios.html"},
 ];
 
 //forEach por cada elemento de la lista va a dar una alerta.
