@@ -1,0 +1,122 @@
+html {
+    background-image: url("https://img.freepik.com/foto-gratis/pico-montana-nevada-majestuosidad-galaxia-estrellada-ia-generativa_188544-9650.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-comentario {
+    width: 100%;
+    max-width: 150rem;
+    height: 80rem;
+    margin: auto;
+    margin-top: 5%;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-comentario {
+    width: 100%;
+    height: 60rem;
+    max-width: 110rem;
+    gap: 4rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.box-comentario .nombre  {
+    font-size: 2rem;
+    gap: 1rem;
+    color: white;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.box-comentario .nombre input {
+    width: 50rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: rgb(255, 230, 209);
+    border: none;
+    border-radius: 3px;
+}
+
+.box-comentario .info {
+    font-size: 2rem;
+    gap: 1rem;
+    color: white;
+
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: start; 
+}
+
+.box-comentario .info input {
+    width: 101rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(255, 230, 209);
+    border: none;
+    border-radius: 3px;
+}
+
+.box-comentario .eva1 {
+    font-size: 2rem;
+    gap: 1rem;
+    color: white;
+
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;  
+}
+
+.box-comentario .eva1 input {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 230, 209);
+    border: none;
+    border-radius: 3px;
+}
+
+.box-comentario .eva2 {
+    font-size: 2rem;
+    gap: 1rem;
+    color: white;
+
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;  
+}
+
+.box-comentario .eva2 input {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 230, 209);
+    border: none;
+    border-radius: 3px;
+}
+
+
+.box-comentario .boton-evr button{
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: gray;
+    background-color: rgb(255, 230, 209);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
